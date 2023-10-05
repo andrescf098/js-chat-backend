@@ -15,7 +15,7 @@ const options = {
     }
   },
 };
-app.use(cors(options));
+app.use(cors({ origin: true }));
 
 app.post("/authenticate", async (req, res) => {
   const { username } = req.body;
