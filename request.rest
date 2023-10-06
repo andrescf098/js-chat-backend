@@ -1,4 +1,4 @@
-POST https://js-chat-backend.pages.dev/authenticate
+POST http://localhost:3001/authenticate
 Content-Type: application/json
 
 {
